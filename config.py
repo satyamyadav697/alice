@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 23270378
+API_HASH = "1adf3dfe84699547757a5f2e4cb84d3a"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7791307128:AAEgg6mOApSyKPa_wv12ycncwXNPrGAFKuk"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://satyam:satyam@satyam.jpftt.mongodb.net/?retryWrites=true&w=majority&appName=Satyam"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002321189618
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6015256244
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/The_Aura_Network"
+SUPPORT_GROUP = "https://t.me/+FmJk4LVQhK01ZmI1"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFjE-oAC6wll9Fx-sBUNpVZ8OiaOfL1G86dyXhda2vFS2ONylp4ygi7rNeRDxwBYPUiE_3ZyS23PfvqHPm17bxmRhkDmYkAdQWAfffViHyBWiNLA3lQ_qs-hxGGOU1LN3Y3XV4F9zC4y2kDOalgTOxo51aNJA38PK39-BvT0TYKpAY1zLZgjHE4X2Ja6LUs68Q24inlXgI6-kiINCB1Y8aTBtqPnuR5svph7vAAwXvaWFy1DpDJpuaOd2Mu4_SGgNaDCpSRvsVT4YC42WK6CEc7jf5_NLEtJLUinIJYvatpqd_ppj0CipDkcFCN6dQ0LPS1l3eDhtDhY8uifXyrOHpkO4bpUgAAAAGPC7yxAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
